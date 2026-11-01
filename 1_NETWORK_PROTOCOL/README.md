@@ -50,9 +50,12 @@ A theoretical reference model with **7 layers**.
 | 2 | Data Link | Node-to-node delivery and MAC addressing |
 | 1 | Physical | Sends raw bits over physical media |
 
+--- 
 <p align="center">
-  <img src="images/osi-model.jpg" alt="7 Layers of the OSI Model" width="600">
+  <img src="osi-model.jpg" alt="7 Layers of the OSI Model" width="600">
 </p>
+
+---
 
 ### B. TCP/IP Model
 
@@ -65,9 +68,14 @@ A practical model used for Internet communication. It has **4 layers**.
 | Internet | IP addressing and routing |
 | Network Access | Physical transmission and local network communication |
 
+
+---
 <p align="center">
-  <img src="images/tcp-ip-model.jpg" alt="TCP/IP Model layers" width="500">
+  <img src="tcp-ip-model.jpg" alt="TCP/IP Model layers" width="500">
 </p>
+
+---
+
 
 ### OSI vs TCP/IP
 
@@ -98,11 +106,15 @@ A practical model used for Internet communication. It has **4 layers**.
 | **DNS** | Domain Name System | Converts domain names into IP addresses |
 | **WebSocket** | - | Persistent, two-way communication between client and server |
 
+---
+
 #### DNS Resolution Flow
 
 <p align="center">
-  <img src="images/dns-recursive-resolution.jpg" alt="DNS Recursive Resolution" width="550">
+  <img src="dns-recursive-resolution.jpg" alt="DNS Recursive Resolution" width="550">
 </p>
+
+---
 
 ### B. Transport Layer Protocols
 
@@ -114,11 +126,15 @@ A practical model used for Internet communication. It has **4 layers**.
 - Uses acknowledgements and retransmission
 - Best when reliability is important
 
+---
+
 **TCP 3-Way Handshake**
 
 <p align="center">
-  <img src="images/tcp-three-way-handshake.jpg" alt="TCP three-way handshake" width="500">
+  <img src="tcp-three-way-handshake.jpg" alt="TCP three-way handshake" width="500">
 </p>
+
+---
 
 #### 2. UDP (User Datagram Protocol)
 
@@ -155,17 +171,25 @@ A client sends a request. The server processes it and returns a response.
 
 > **Example:** A browser requesting a webpage from a web server.
 
+---
+
 **HTTP request-response**
 
 <p align="center">
-  <img src="images/http-client-server.jpg" alt="Client Server using HTTP" width="550">
+  <img src="http-client-server.jpg" alt="Client Server using HTTP" width="550">
 </p>
+
+---
+
+---
 
 **HTTP vs WebSocket**
 
 <p align="center">
-  <img src="images/http-vs-websocket.jpg" alt="HTTP vs WebSocket connection lifecycle" width="550">
+  <img src="http-vs-websocket.jpg" alt="HTTP vs WebSocket connection lifecycle" width="550">
 </p>
+
+---
 
 ### B. Peer-to-Peer (P2P) Communication
 
