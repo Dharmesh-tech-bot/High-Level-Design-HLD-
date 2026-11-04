@@ -253,6 +253,30 @@ Network protocols define the rules of communication between systems.
 
 In HLD, choosing the right protocol is important for building scalable, reliable, secure, and efficient distributed systems.
 
+**Interviewer**: What are network protocols? Why are they necessary in High-Level Design?
+
+Network protocols are a set of standardized rules that define how two or more devices communicate and exchange data over a network.
+
+To understand network communication, we have two important models: OSI and TCP/IP.
+
+The OSI model is a theoretical reference model consisting of seven layers, whereas the TCP/IP model is a practical networking model consisting of four layers, widely used for Internet communication.
+
+In High-Level Design, network protocols are important because they help us decide how different components of a distributed system communicate with each other.
+
+For example:
+
+- We use HTTP/HTTPS for client-server communication.
+- We use WebSocket for real-time, two-way communication.
+- We use TCP when reliable data delivery is required.
+- We use UDP when low-latency communication is preferred.
+- We use DNS to resolve domain names into IP addresses.
+
+Similarly, technologies like WebRTC and BitTorrent support peer-to-peer communication.
+
+Therefore, choosing appropriate network protocols helps us design scalable, reliable, secure and efficient distributed systems.
+
+---
+
 ### Quick Recall
 
 | Protocol | Remember as |
